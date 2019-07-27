@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "nodemon server/index.js"
   },
   "author": "https://github.com/aotolbert",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "del": "^5.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.7.0",
+    "path": "^0.12.7",
+    "static-module": "^3.0.3",
+    "util": "^0.12.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
