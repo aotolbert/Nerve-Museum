@@ -2,20 +2,23 @@
   "name": "nerve-museum",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/index.js"
+    "start": "nodemon server.js"
   },
   "author": "https://github.com/aotolbert",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "del": "^5.0.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "mkdirp": "^0.5.1",
     "mz": "^2.7.0",
+    "node-deeplink": "^0.5.0",
     "path": "^0.12.7",
+    "requirejs": "^2.3.6",
     "static-module": "^3.0.3",
     "util": "^0.12.1"
   },

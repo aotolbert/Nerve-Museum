@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Paul Lewis" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="theme-color" content="#FF00FF">
+  <title>The Nerve Museum</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+        <div class="header">
+          <button class="js-menu-show header__menu-toggle material-icons">
+              <img src="./images/menu-icon.png" style="height: 25px; width: 25px;"/>
+            </button>
+        </div>
+      
+        <aside class="js-side-nav side-nav">
+          <nav class="js-side-nav-container side-nav__container">
+            <button class="js-menu-hide side-nav__hide material-icons"><img src="./images/close-icon.png" style="height: 25px; width: 25px;"/>
+            </button>
+            <header class="side-nav__header">
+              Contents
+            </header>
+            <ul class="side-nav__content">
+              <li><a href="./"><span class="text-muted h5" id="homeLink">Home</span></a></li>
+              <li><a href="./about"><span class="text-muted h5" id="aboutLink">About</span></a></li>
+              <li><a href="./collections"><span class="text-muted h5" id="collectionsLink">Collections</span></a></li>
+              <li><a href="./offline"><span class="text-muted h5" id="upcomingLink">Upcoming</span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <script src='./static/debatinator.js'></script>
+        <script src='./static/side-nav.js'></script>
+        <script src='../app.js'></script>
+
+    <script>
+        // if(navigator.serviceWorker) {
+        //     navigator.serviceWorker.register('/sw.js')
+        // }
+
+    </script>
+</body>
+</html>
